@@ -1,0 +1,16 @@
+.inputStyle {
+  width: 3rem !important;
+  height: 3rem;
+  font-size: 2rem;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 470px) {
+  .inputStyle {
+    width: 2rem !important;
+    height: 2rem;
+    margin: 0 5px;
+    font-size: 1.5rem;
+  }
+}
